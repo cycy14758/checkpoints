@@ -1,0 +1,116 @@
+
+body{
+  background-image:url(https://img.freepik.com/photos-gratuite/fond-aquarelle-peint-main-forme-ciel-nuages_24972-1095.jpg?w=900&t=st=1689762698~exp=1689763298~hmac=4a4ffeeda2329bd68a2b8134777aa98b8f15b044dedf2f9b69090faeb21c3fc0);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+ul {
+  list-style-type: none;
+  margin: 2;
+  padding: 2;
+
+}
+
+li {
+  display: inline;
+}
+
+.fa-regular{
+    position: relative;
+    right: 50px;
+}
+
+  input {
+    border-radius:10%;
+  }
+  
+  .title {
+    margin-right: 30px ;
+    font-style: italic;
+    color:tomato;
+  }
+  button:hover{
+    background-color: violet;
+  }
+  img{
+    width: 150px;
+    height: 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0,1);  
+  }
+h5{
+  font-weight: bold;
+  font-size: 50px;
+}
+  .navbar{
+    display: inline; 
+  }
+  .navbar a {
+    margin-right: 10px;
+  }
+  h2+p{
+    font-style: unset;
+  }
+  .spn{
+    background: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid tomato;
+  } 
+  h2~p{
+    font-family: 'Roboto', sans-serif;
+    animation-duration: 15s;
+  animation-name: glissement;
+  animation-iteration-count: infinite;
+  
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    background-color: #f2f2f2;
+  }
+  #ol{
+     font-style: oblique;
+     color: blue;
+     font: 500 sans-serif;
+    }
+    
+ #sbt{
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #0056b3;
+  }
+  
+#p{
+  
+    border: 1px solid #333333; 
+    padding: 10px; 
+    text-align: center;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
